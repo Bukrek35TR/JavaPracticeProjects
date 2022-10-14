@@ -7,28 +7,26 @@ public class Main {
 		long lastPrime = 0L;
 		boolean prime = true;
 
-
 		for (long i = 2L; i <= number; i++) {
-			//System.out.println("i :"+i);
+
+			prime = true;
 
 			for (long j = 2L; j < i; j++) {
-				
-				prime = true;
+				//System.out.println("i :" + i);
+				//System.out.println("j :" + j);
 				if (i % j == 0) {
 					prime = false;
+
 				}
-				if(prime) {
-					lastPrime = j;
-				}
-				//System.out.println("j :"+j);
+				//System.out.println("last : " + prime);
 
 			}
-			
-			System.out.println("last : "+lastPrime);
+			if (prime) {
+				lastPrime = i;
+				
+			}
 		}
-		
-		
-
+		System.out.println("last : " + lastPrime);
 	}
 
 }
