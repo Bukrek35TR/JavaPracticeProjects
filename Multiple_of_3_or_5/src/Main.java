@@ -10,7 +10,7 @@ public class Main {
 				sum += i;
 			}
 		}
-		System.out.println("Sonuç : " + sum);
+		System.out.println("Conclusion : " + sum);
 
 	}
 
