@@ -8,8 +8,8 @@ public class Main {
 			for (int a = 1; a < 1000; a++) {
 				int c = (int) Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
 
-				if ((a + b + c) == 1000 && (Math.pow(a, 2) + Math.pow(b, 2)) == Math.pow(c, 2) && a > 0 && b > a
-						&& c > b) {
+				if ((a + b + c) == 1000 && a > 0 && b > a && c > b
+						&& (Math.pow(a, 2) + Math.pow(b, 2)) == Math.pow(c, 2)) {
 					System.out.println("a = " + a);
 					System.out.println("b = " + b);
 					System.out.println("c = " + c);
