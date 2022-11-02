@@ -43,7 +43,7 @@ public class Main {
 			result = Calculate.leftDiagonally(values);
 		}
 
-		System.out.println(result);
+		System.out.println("Conclusion : " + result);
 
 	}
 
