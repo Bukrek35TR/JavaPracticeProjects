@@ -32,7 +32,7 @@ public class Main {
 			pow--;
 
 		}
-		System.out.println(result);
+		System.out.println("Conclusion : " + result);
 
 	}
 
