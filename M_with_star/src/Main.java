@@ -24,7 +24,7 @@ public class Main {
 						isNumber = false;
 					} catch (Exception e) {
 						try {
-							num = (int) Double.parseDouble(string);
+							num = (int) Math.round(Double.parseDouble(string));
 							isNumber = false;
 						} catch (Exception e2) {
 							System.out.println("Sadece rakam girebilirsiniz.");
@@ -87,7 +87,7 @@ public class Main {
 					isChoice = false;
 					isReturn = false;
 				} else {
-					System.out.print("Yanlış değer girdiniz.");
+					System.out.println("Yanlış değer girdiniz.");
 				}
 
 			}
