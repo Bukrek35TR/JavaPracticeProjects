@@ -27,12 +27,12 @@ public class Main {
 							num = (int) Math.round(Double.parseDouble(string));
 							isNumber = false;
 						} catch (Exception e2) {
-							System.out.println("Sadece rakam girebilirsiniz.");
+							System.out.println("!!! Sadece rakam girebilirsiniz.");
 						}
 					}
 				}
 				if (!(2 < num && num < 25)) {
-					System.out.println("Sadece 3 ile 24 arasında bir değer girebilirsiniz.");
+					System.out.println("!!! Sadece 3 ile 24 arasında bir değer girebilirsiniz.");
 					isNumber = true;
 				}
 			}
@@ -78,7 +78,7 @@ public class Main {
 			}
 
 			while (isChoice) {
-				System.out.print("Yeni değer ile denemek ister misiniz? (E/H) : ");
+				System.out.print(" Yeni değer ile denemek ister misiniz? (E/H) : ");
 				String choice = reader.readLine().trim();
 
 				if (choice.charAt(0) == 'e' || choice.charAt(0) == 'E') {
@@ -87,7 +87,7 @@ public class Main {
 					isChoice = false;
 					isReturn = false;
 				} else {
-					System.out.println("Yanlış değer girdiniz.");
+					System.out.println("!!! Yanlış değer girdiniz.");
 				}
 
 			}
