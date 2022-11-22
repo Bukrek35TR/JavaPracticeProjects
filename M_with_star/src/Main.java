@@ -78,7 +78,7 @@ public class Main {
 			}
 
 			while (isChoice) {
-				System.out.print("Yeni değer ile denemek istermisiniz? (e/h) : ");
+				System.out.print("Yeni değer ile denemek ister misiniz? (E/H) : ");
 				String choice = reader.readLine().trim();
 
 				if (choice.charAt(0) == 'e' || choice.charAt(0) == 'E') {
